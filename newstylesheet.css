@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MyFont", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing:border-box
+}
+
+@font-face{
+    font-family: "MyFont";
+    ;
+    src: url("Pixeled.ttf") format("truetype");
+}
+
+.welcome-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("sculk minecraft wallpaper.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media(min-width: 1920px) {
+    .popup{
+    width:600px;
+    background: rgb(42, 55, 55);
+    border-radius: 6px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ddd;
+    visibility: visible;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 2;
+    overflow: hidden;
+    cursor: context-menu;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.popuptext {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext2 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext3 {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.title{
+    color: #1B512D;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+}
+
+.titlebox{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10;
+    background-color: rgb(42, 55, 55);
+    padding: 1%;
+    border-radius: 30px;
+    cursor: context-menu;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(42, 55, 55);
+    max-width: 200px;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media(max-width: 1440px) {
+    .popup{
+    width:400px;
+    background: rgb(42, 55, 55);
+    border-radius: 6px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ddd;
+    visibility: visible;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 2;
+    overflow: hidden;
+    cursor: context-menu;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.popuptext {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext2 {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext3 {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.title{
+    color: #1B512D;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.titlebox{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10;
+    background-color: rgb(42, 55, 55);
+    padding: 1%;
+    border-radius: 30px;
+    cursor: context-menu;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(42, 55, 55);
+    max-width: 200px;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media(max-width: 767px) {
+    .popup{
+    width:400px;
+    background: rgb(42, 55, 55);
+    border-radius: 6px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #ddd;
+    visibility: visible;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 2;
+    overflow: hidden;
+    cursor: context-menu;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.popuptext {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext2 {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.popuptext3 {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(42, 55, 55);
+}
+
+.title{
+    color: #1B512D;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+}
+
+.titlebox{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10;
+    background-color: rgb(42, 55, 55);
+    padding: 1%;
+    border-radius: 30px;
+    cursor: context-menu;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(42, 55, 55);
+    max-width: 200px;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
