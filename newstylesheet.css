@@ -18,7 +18,7 @@
     align-items: center;
     min-height: 100vh;
     background-image: url("sculk minecraft wallpaper.jpg");
-    background-size: cover;   /* better than 100% 100% */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -71,7 +71,6 @@
 .popup {
     background: rgb(42, 55, 55);
     border-radius: 10px;
-    position: fixed;
     left: 50%;
     text-align: center;
     padding: 20px;
@@ -107,6 +106,7 @@
         padding: 15px;
         top: 50%;
         transform: translate(-50%, -50%);
+        position: fixed;
     }
 
     .popuptext,
@@ -139,6 +139,7 @@
         padding: 25px;
         top: 55%;
         transform: translate(-50%, -50%);
+        position: fixed;
     }
 
     .popuptext,
@@ -168,6 +169,7 @@
         padding: 15px;
         top: 60%;
         transform: translate(-50%, -50%);
+        position: absolute;
     }
 
     .popuptext,
@@ -188,6 +190,7 @@
         padding: 10px;
         top: 60%;
         transform: translate(-50%, -50%);
+        position: absolute;
     }
 
     .welcome-page {
