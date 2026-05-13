@@ -90,12 +90,22 @@
 
 
 @media (max-width: 768px) {
-    .popup {
-        padding: 20px;
+    .welcome {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
     }
 
     .titlebox {
-        padding: 10px 20px;
+        margin-top: 0;
+    }
+
+    .popup {
+        width: 95%;
     }
 }
 
