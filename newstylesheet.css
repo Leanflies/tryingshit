@@ -71,6 +71,7 @@
 .popup {
     background: rgb(42, 55, 55);
     border-radius: 10px;
+    position: fixed;
     left: 50%;
     text-align: center;
     padding: 20px;
@@ -106,13 +107,16 @@
         padding: 15px;
         top: 50%;
         transform: translate(-50%, -50%);
-        position: fixed;
     }
 
     .popuptext,
     .popuptext2,
     .popuptext3 {
         font-size: 22px;
+    }
+
+    .container1{
+        position: fixed;
     }
 }
 
@@ -139,7 +143,6 @@
         padding: 25px;
         top: 55%;
         transform: translate(-50%, -50%);
-        position: fixed;
     }
 
     .popuptext,
@@ -150,6 +153,10 @@
 
     .welcome-page {
         background-position: center;
+    }
+
+    .container1{
+        position: fixed;
     }
 }
 
@@ -169,13 +176,16 @@
         padding: 15px;
         top: 60%;
         transform: translate(-50%, -50%);
-        position: absolute;
     }
 
     .popuptext,
     .popuptext2,
     .popuptext3 {
         font-size: 12px;
+    }
+
+    .container1{
+        position: absolute;
     }
 }
 
@@ -190,10 +200,13 @@
         padding: 10px;
         top: 60%;
         transform: translate(-50%, -50%);
-        position: absolute;
     }
 
     .welcome-page {
         padding: 10px;
+    }
+
+    .container1{
+        position: absolute;
     }
 }
