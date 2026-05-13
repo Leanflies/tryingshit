@@ -1,251 +1,136 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "MyFont", sans-serif;
     scroll-behavior: smooth;
-    box-sizing:border-box
 }
 
-@font-face{
+@font-face {
     font-family: "MyFont";
-    ;
     src: url("Pixeled.ttf") format("truetype");
 }
 
-.welcome-page{
+
+.welcome-page {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-image: url("sculk minecraft wallpaper.jpg");
-    background-size: 100% 100%;
+    background-size: cover;   /* better than 100% 100% */
+    background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    padding: 20px;
 }
 
-@media (max-width: 480px){
-    .title{
+
+.title {
     color: #1B512D;
     text-align: center;
     text-shadow: 2px 2px black;
+    font-size: clamp(1.2rem, 4vw, 3rem);
 }
 
-.titlebox{
+
+.titlebox {
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 10;
+    top: 10px;
     background-color: rgb(42, 55, 55);
-    padding: 1%;
+    padding: 15px;
     border-radius: 30px;
     cursor: context-menu;
+    width: fit-content;
+    max-width: 90%;
 }
 
-.welcome{
+
+.welcome {
     display: flex;
     justify-content: center;
     position: fixed;
     background-color: rgb(42, 55, 55);
-    max-width: 200px;
+    max-width: 90%;
+    padding: 10px;
 }
 
-.container1{
+
+.container1 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
-.popup{
-    width:300px;
+
+.popup {
+    width: 90%;
+    max-width: 400px;
     background: rgb(42, 55, 55);
-    border-radius: 6px;
+    border-radius: 10px;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding: 0 30px 30px;
+    padding: 20px;
     color: #ddd;
     visibility: visible;
-    transition: transform 0.4s, top 0.4s;
     z-index: 2;
     overflow: hidden;
     cursor: context-menu;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
 }
 
-.popuptext {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
 
-.popuptext2 {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
-
+.popuptext,
+.popuptext2,
 .popuptext3 {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
-}
-
-@media (max-width: 768px){
-    .title{
-    color: #1B512D;
-    text-align: center;
-    text-shadow: 2px 2px black;
-}
-
-.titlebox{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 10;
-    background-color: rgb(42, 55, 55);
-    padding: 1%;
-    border-radius: 30px;
-    cursor: context-menu;
-}
-
-.welcome{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    background-color: rgb(42, 55, 55);
-    max-width: 200px;
-}
-
-.container1{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.popup{
-    width:400px;
-    background: rgb(42, 55, 55);
-    border-radius: 6px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) scale(1);
-    text-align: center;
-    padding: 0 30px 30px;
-    color: #ddd;
-    visibility: visible;
-    transition: transform 0.4s, top 0.4s;
-    z-index: 2;
-    overflow: hidden;
-    cursor: context-menu;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-.popuptext {
-    font-size: 10px;
+    font-size: clamp(12px, 2vw, 18px);
     text-align: center;
     background-color: rgb(42, 55, 55);
 }
 
-.popuptext2 {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .titlebox {
+        top: 20px;
+        padding: 10px;
+        max-width: 95%;
+    }
+
+    .popup {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .popuptext,
+    .popuptext2,
+    .popuptext3 {
+        font-size: 12px;
+    }
 }
 
-.popuptext3 {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
-}
 
-@media (min-width: 1024px){
-    .title{
-    color: #1B512D;
-    text-align: center;
-    text-shadow: 2px 2px black;
-    font-size: 50px;
-}
+@media (max-width: 480px) {
+    .title {
+        font-size: 1rem;
+    }
 
-.titlebox{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 10;
-    background-color: rgb(42, 55, 55);
-    padding: 1%;
-    border-radius: 30px;
-    cursor: context-menu;
-}
+    .popup {
+        width: 95%;
+        padding: 10px;
+    }
 
-.welcome{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    background-color: rgb(42, 55, 55);
-    max-width: 200px;
-}
-
-.container1{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.popup{
-    width: 700px;
-    background: rgb(42, 55, 55);
-    border-radius: 6px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) scale(1);
-    text-align: center;
-    padding: 0 30px 30px;
-    color: #ddd;
-    visibility: visible;
-    transition: transform 0.4s, top 0.4s;
-    z-index: 2;
-    overflow: hidden;
-    cursor: context-menu;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-.popuptext {
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
-
-.popuptext2 {
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
-
-.popuptext3 {
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(42, 55, 55);
-}
+    .welcome-page {
+        padding: 10px;
+    }
 }
