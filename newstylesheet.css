@@ -100,6 +100,7 @@
         top: 20px;
         padding: 10px;
         width: 25%;
+        left: 37.5%;
     }
 
     .popup {
@@ -115,7 +116,7 @@
         font-size: 22px;
     }
 
-    .container1{
+    .welcome-page{
         position: fixed;
     }
 }
@@ -130,6 +131,7 @@
         top: 20px;
         padding: 12px;
         max-width: 80%;
+        left: 37.5%;
     }
 
     .welcome {
@@ -153,11 +155,9 @@
 
     .welcome-page {
         background-position: center;
-    }
-
-    .container1{
         position: fixed;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -169,6 +169,7 @@
         top: 20px;
         padding: 10px;
         max-width: 95%;
+        left: 37.5%;
     }
 
     .popup {
@@ -184,7 +185,7 @@
         font-size: 12px;
     }
 
-    .container1{
+    .welcome-page{
         position: absolute;
     }
 }
@@ -204,9 +205,6 @@
 
     .welcome-page {
         padding: 10px;
-    }
-
-    .container1{
         position: absolute;
     }
 }
