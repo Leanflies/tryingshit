@@ -173,11 +173,11 @@
     .headingbox {
         margin-top: 60px;
         text-align: center;
-        min-width: 250px;
+        min-width: 300px;
     }
 
     .heading{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .details {
