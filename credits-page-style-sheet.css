@@ -677,7 +677,27 @@
     }
 
     .andy-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 40%;
+        width: 300px;
+    }
+
+    .andy-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .andy-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .taylor-credit-box{
