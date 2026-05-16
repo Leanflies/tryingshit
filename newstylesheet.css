@@ -22,6 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .welcome {
@@ -32,7 +33,6 @@
     width: 100%;
     gap: 20px;
 }
-
 
 .titlebox {
     background-color: rgb(42, 55, 55);
@@ -150,11 +150,9 @@
     }
 
     .welcome {
-        display: flex;
-        flex-direction: column !important;
-        align-items: center;
-        justify-content: flex-start;
+        flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 
     .titlebox {
@@ -165,7 +163,7 @@
     }
 
     .container1 {
-        display: block;
+        display: block !important;
         width: 100%;
     }
 
