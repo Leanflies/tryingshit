@@ -167,7 +167,7 @@
         flex-direction: column;
         position: fixed;
         top: 0;
-        font-size: 2px;
+        font-size: 8px;
     }
 
     .headingbox {
@@ -187,9 +187,13 @@
     }
 
     .bottombars {
-        position: static;
-        margin-top: 20px;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: -275px;
+        transform: translate(-50%);
+        left: 50%;
+        width: 50%;
     }
 
     .iron-golem{
