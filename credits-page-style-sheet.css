@@ -636,11 +636,16 @@
     .heading{
         font-size: 12px;
     }
+
+    .name-heading{
+        top: 5px;
+    }
     
     .ethan-credit-box{
         left: 50%;
         transform: translate(-50%);
         top: 15%;
+        max-width: 450px;
     }
 
     .andy-credit-box{
