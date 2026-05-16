@@ -32,7 +32,7 @@
     background: rgb(1, 45, 43);
     color: #017672;
     display: block;
-    position: relative;
+    position: absolute;
     justify-content: center;
     padding-left: 2.5%;
     padding-right: 2.5%;
