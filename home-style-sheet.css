@@ -165,7 +165,7 @@
 
     .pages {
         flex-direction: column;
-        position: absolute;
+        position: static;
         top: 0;
         font-size: 8px;
     }
