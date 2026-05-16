@@ -668,6 +668,11 @@
     .ethan-skin-credits{
         right: 30px;
         bottom: 20px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .andy-credit-box{
