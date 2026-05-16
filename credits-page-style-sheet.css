@@ -629,7 +629,53 @@
 }
 
 @media screen and (max-width: 768px) {
-    .credit-boxes{
-        flex-direction: column;
+    .headingbox4{
+        max-width: 250px;
+    }
+
+    .heading{
+        font-size: 12px;
+    }
+    
+    .ethan-credit-box{
+        left: 50%;
+        transform: translate(-50%);
+        top: 15%;
+    }
+
+    .andy-credit-box{
+        visibility: hidden;
+    }
+
+    .taylor-credit-box{
+        visibility: hidden;
+    }
+
+    .ashlyn-credit-box{
+        visibility: hidden;
+    }
+
+    .desca-credit-box{
+        visibility: hidden;
+    }
+
+    .rachel-credit-box{
+        visibility: hidden;
+    }
+
+    .ember-credit-box{
+        visibility: hidden;
+    }
+
+    .fire-credit-box{
+        visibility: hidden;
+    }
+
+    .eli-credit-box{
+        visibility: hidden;
+    }
+
+    .mossie-credit-box{
+        visibility: hidden;
     }
 }
