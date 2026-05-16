@@ -679,7 +679,7 @@
     .andy-credit-box{
         left: 50%;
         transform: translate(-50%);
-        top: 80%;
+        top: 100%;
         width: 300px;
     }
 
