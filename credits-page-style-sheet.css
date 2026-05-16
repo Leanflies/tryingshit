@@ -651,6 +651,8 @@
 
     .ethan-credit-list{
         font-size: 10px;
+        position: fixed;
+        right: 5px;
     }
 
     .andy-credit-box{
