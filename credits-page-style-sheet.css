@@ -639,6 +639,7 @@
 
     .name-heading{
         top: 5px;
+        font-size: 10px;
     }
     
     .ethan-credit-box{
@@ -646,7 +647,11 @@
         transform: translate(-50%);
         top: 15%;
         width: 300px;
+    }
+
+    .ethan-credit-list{
         font-size: 10px;
+        right: 5px;
     }
 
     .andy-credit-box{
