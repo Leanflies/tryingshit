@@ -702,34 +702,194 @@
     }
 
     .taylor-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 140%;
+        width: 300px;
+    }
+
+    .taylor-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .taylor-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .ashlyn-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 200%;
+        width: 300px;
+    }
+
+    .ashlyn-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .ashlyn-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .desca-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 260%;
+        width: 300px;
+    }
+
+    .desca-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .desca-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .rachel-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 320%;
+        width: 300px;
+    }
+
+    .rachel-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .rachel-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .ember-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 380%;
+        width: 300px;
+    }
+
+    .ember-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .ember-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .fire-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 440%;
+        width: 300px;
+    }
+
+    .fire-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .fire-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .eli-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 500%;
+        width: 300px;
+    }
+
+    .eli-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .eli-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 
     .mossie-credit-box{
-        visibility: hidden;
+        left: 50%;
+        transform: translate(-50%);
+        top: 560%;
+        width: 300px;
+    }
+
+    .mossie-credit-list{
+        font-size: 10px;
+        position: fixed;
+        right: 5px;
+        top: 25px;
+    }
+
+    .mossie-skin-credits{
+        right: 20px;
+        bottom: 15px;
+        left: auto;
+        top: auto;
+        position: absolute;
+        width: 150px;
+        height: 150px;
     }
 }
