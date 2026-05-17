@@ -633,7 +633,7 @@
         height: 4000px;
         background: linear-gradient(#ffccf2, #977dff, #0033ff);
     }
-    
+
     .headingbox4{
         max-width: 250px;
     }
@@ -703,7 +703,12 @@
         top: auto;
         position: absolute;
         width: 150px;
-        height: 150px;
+        height: 125px;
+    }
+
+    .andy-credits-picture{
+        width: 75px;
+        height: 75px;
     }
 
     .taylor-credit-box{
