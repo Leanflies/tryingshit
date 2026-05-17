@@ -884,6 +884,11 @@
         height: 125px;
     }
 
+    .eli-credits-picture{
+        width: 75px;
+        height: 75px;
+    }
+
     .mossie-credit-box{
         left: 50%;
         transform: translate(-50%);
