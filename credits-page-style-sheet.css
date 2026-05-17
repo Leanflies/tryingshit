@@ -630,7 +630,7 @@
 
 @media screen and (max-width: 768px) {
     .credits-page{
-        height: 4000px;
+        height: 3500px;
         background: linear-gradient(#ffccf2, #977dff, #0033ff);
     }
 
@@ -702,7 +702,7 @@
         left: auto;
         top: auto;
         position: absolute;
-        width: 150px;
+        width: 125px;
         height: 125px;
     }
 
@@ -731,8 +731,13 @@
         left: auto;
         top: auto;
         position: absolute;
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
+    }
+
+    .taylor-credits-picture{
+        width: 75px;
+        height: 75px;
     }
 
     .ashlyn-credit-box{
@@ -875,8 +880,8 @@
         left: auto;
         top: auto;
         position: absolute;
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
 
     .mossie-credit-box{
