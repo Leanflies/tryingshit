@@ -230,6 +230,7 @@
         position: static;
         top: 0;
         font-size: 8px;
+        width: 100%;
     }
 
     .headingbox2{
