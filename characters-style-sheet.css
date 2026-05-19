@@ -252,6 +252,7 @@
         padding: 8px 20px;
         font-size: 8px;
         width: 42vw;
+        left: calc(100px + ((100vw - 100px) / 2));
     }
 
     .all-characters-fanart{
@@ -266,8 +267,9 @@
         width: 42vw;
         padding-left: 2.5%;
         padding-right: 2.5%;
+        top: 50%;
         left: calc(100px + ((100vw - 100px) / 2));
-        transform: translateX(-50%);
+        transform: translateX(-50%, -50%);
     }
 
     .popuptext,
