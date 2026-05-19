@@ -46,6 +46,7 @@
     background-color: #1B512D;
     position: fixed;
     top: 0;
+    left: 0;
     width: clamp(120px, 18vw, 220px);
     height: 100vh;
     display: flex;
@@ -185,7 +186,6 @@
     .character-list{
         width: 150px;
         font-size: 12px;
-        left: 0;
     }
 
     .popup2{
@@ -202,7 +202,6 @@
     .character-list{
         width: 160px;
         font-size: 16px;
-        left: 0;
     }
 
     .all-characters-fanart{
@@ -227,12 +226,26 @@
 @media (max-width: 768px){
 
     .character-list{
-        flex-direction: column;
         position: fixed;
         top: 0;
-        font-size: 8px;
-        width: 1768px;
-        height: 125px;
+        width: 100px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #1B512D;
+    }
+
+    .character-list li{
+        font-size: 12px;
+    }
+
+    .character-list li a{
+        position: absolute;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
     }
 
     .headingbox2{
@@ -251,6 +264,11 @@
     .popup2{
         width: 92vw;
         padding: 15px;
+    }
+
+    .popuptext,
+    .popuptext2,
+    .popuptext3{
         font-size: 14px;
     }
 }
