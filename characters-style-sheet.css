@@ -251,7 +251,7 @@
     .headingbox2{
         padding: 8px 20px;
         font-size: 8px;
-        width: 42vw;
+        width: 45vw;
         left: calc(100px + ((100vw - 100px) / 2));
         text-align: center;
     }
