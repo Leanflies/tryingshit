@@ -46,7 +46,6 @@
     background-color: #1B512D;
     position: fixed;
     top: 0;
-    left: 0;
     width: clamp(120px, 18vw, 220px);
     height: 100vh;
     display: flex;
@@ -186,6 +185,7 @@
     .character-list{
         width: 150px;
         font-size: 12px;
+        left: 0;
     }
 
     .popup2{
@@ -202,6 +202,7 @@
     .character-list{
         width: 160px;
         font-size: 16px;
+        left: 0;
     }
 
     .all-characters-fanart{
@@ -227,11 +228,12 @@
 
     .character-list{
         flex-direction: column;
-        position: static;
+        position: fixed;
         top: 0;
         font-size: 8px;
         width: 1768px;
         height: 125px;
+        z-index: 1000;
     }
 
     .headingbox2{
