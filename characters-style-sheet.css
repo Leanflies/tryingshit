@@ -264,7 +264,8 @@
 
     .popup2{
         width: 42vw;
-        padding: 15px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
 
     .popuptext,
