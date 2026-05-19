@@ -250,7 +250,7 @@
 
     .headingbox2{
         padding: 8px 20px;
-        font-size: 10px;
+        font-size: 8px;
         width: 42vw;
     }
 
@@ -270,6 +270,6 @@
     .popuptext,
     .popuptext2,
     .popuptext3{
-        font-size: 8px;
+        font-size: 6px;
     }
 }
