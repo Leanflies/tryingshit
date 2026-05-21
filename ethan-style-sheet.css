@@ -367,7 +367,7 @@
     }
 
     .ethan-facts{
-        width: 300px;
+        width: 42vw;
         left: calc(75px + ((100vw - 75px)/2));
         height: 500px;
     }
