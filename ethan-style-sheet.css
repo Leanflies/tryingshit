@@ -355,7 +355,7 @@
     .character-list-ethan{
         position: fixed;
         top: 0;
-        width: 100px;
+        width: 75px;
         height: 550px;
         display: flex;
         flex-direction: column;
@@ -368,7 +368,8 @@
 
     .ethan-facts{
         width: 300px;
-        left: calc(100px + ((100vw - 100px)/2));
+        left: calc(75px + ((100vw - 75px)/2));
+        height: 500px;
     }
 
     .headingbox2{
@@ -379,7 +380,7 @@
 
     .ethan-achievement{
         top: 105px;
-        left: calc(100px + ((100vw - 100px)/2));
+        left: calc(75px + ((100vw - 75px)/2));
         transform: translate(-50%);
         width: 250px;
     }
