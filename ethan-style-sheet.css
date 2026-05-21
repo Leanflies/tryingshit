@@ -362,6 +362,10 @@
         background-color: #1B512D;
     }
 
+    .character-list-ethan li{
+        font-size: 8px;
+    }
+
     .ethan-facts{
         width: 350px;
         left: calc(100px + ((100vw - 100px)/2));
