@@ -360,11 +360,14 @@
         display: flex;
         flex-direction: column;
         background-color: #1B512D;
+    }
+
+    .character-list-ethan li{
         font-size: 8px;
     }
 
     .ethan-facts{
-        width: 250px;
+        width: 300px;
         left: calc(100px + ((100vw - 100px)/2));
     }
 
@@ -402,6 +405,14 @@
     }
 
     .marlin{
+        visibility: hidden;
+    }
+
+    #ethan-button{
+        visibility: hidden;
+    }
+
+    .chest{
         visibility: hidden;
     }
 }
