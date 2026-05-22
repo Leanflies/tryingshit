@@ -372,7 +372,8 @@
         height: 500px;
         align-items: center;
         justify-content: center;
-        top: 450px;
+        text-align: center;
+        top: 475px;
     }
 
     .headingbox2{
