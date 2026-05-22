@@ -352,6 +352,10 @@
 }
 
 @media (max-width: 768px){
+    .ethan{
+        position: absolute;
+    }
+
     .character-list-ethan{
         position: fixed;
         top: 0;
