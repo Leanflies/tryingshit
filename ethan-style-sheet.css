@@ -367,14 +367,14 @@
     }
 
     .ethan-facts{
-        width: 200px;
+        width: 225px;
         left: calc(75px + ((100vw - 75px)/2));
         height: 500px;
     }
 
     .headingbox2{
-        width: 350px;
-        font-size: 10px;
+        width: 300px;
+        font-size: 9px;
         height: 75px;
     }
 
