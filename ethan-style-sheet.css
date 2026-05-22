@@ -371,6 +371,7 @@
         left: calc(75px + ((100vw - 75px)/2));
         height: 500px;
         align-items: center;
+        visibility: hidden;
     }
 
     .headingbox2{
