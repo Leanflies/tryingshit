@@ -367,12 +367,12 @@
     }
 
     .ethan-facts{
-        width: 250px;
+        width: 275px;
         left: calc(75px + ((100vw - 75px)/2));
         height: 500px;
         align-items: center;
         justify-content: center;
-        top: 600px;
+        top: 450px;
     }
 
     .headingbox2{
