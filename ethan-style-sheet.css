@@ -353,7 +353,9 @@
 
 @media (max-width: 768px){
     .ethan{
-        position: absolute;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
 
     .character-list-ethan{
@@ -385,6 +387,10 @@
         margin: 0 auto;
         text-align: center;
         list-style-position: inside;
+    }
+
+    .ethan-facts li{
+        font-size: 9px;
     }
 
     .headingbox2{
