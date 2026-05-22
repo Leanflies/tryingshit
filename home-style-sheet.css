@@ -95,6 +95,7 @@
 .ethan-credit-link{
     color: #017672;
     transition: ease-in-out .5s;
+    z-index: 10;
 }
 
 .ethan-credit-link:hover{
