@@ -377,7 +377,7 @@
     .headingbox2{
         width: 250px;
         font-size: 9px;
-        height: 175px;
+        height: 150px;
         left: calc(75px + ((100vw - 75px)/2));
     } 
 
@@ -386,6 +386,7 @@
         left: calc(75px + ((100vw - 75px)/2));
         transform: translate(-50%);
         width: 250px;
+        visibility: hidden;
     }
 
     .ethan-skin{
