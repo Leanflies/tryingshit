@@ -356,6 +356,7 @@
         overflow-y: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none;
+        height: 1000px;
     }
 
     .character-list-ethan{
