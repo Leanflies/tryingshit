@@ -163,7 +163,7 @@
     font-size: clamp(14px, 1.2vw, 20px);
 }
 
-.character-list li:last-child {
+.character-list-ethan li:last-child {
     border-bottom: none;
 }
 
@@ -371,13 +371,14 @@
         left: calc(75px + ((100vw - 75px)/2));
         height: 500px;
         align-items: center;
+        justify-content: center;
         visibility: hidden;
     }
 
     .headingbox2{
         width: 250px;
         font-size: 9px;
-        height: 150px;
+        height: 125px;
         left: calc(75px + ((100vw - 75px)/2));
     } 
 
