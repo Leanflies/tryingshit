@@ -383,11 +383,10 @@
     } 
 
     .ethan-achievement{
-        top: 105px;
+        top: 155px;
         left: calc(75px + ((100vw - 75px)/2));
         transform: translate(-50%);
         width: 250px;
-        visibility: hidden;
     }
 
     .ethan-skin{
