@@ -372,7 +372,7 @@
         height: 500px;
         align-items: center;
         justify-content: center;
-        visibility: hidden;
+        top: 600px;
     }
 
     .headingbox2{
