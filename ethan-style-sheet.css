@@ -377,7 +377,7 @@
     .ethan-facts{
         width: 275px;
         left: calc(75px + ((100vw - 75px)/2));
-        height: 1000px;
+        height: 800px;
         align-items: center;
         justify-content: center;
         padding-left: 2.5%;
@@ -414,12 +414,16 @@
     .ethan-skin{
         top: 1000px;
         position: absolute;
-        left: calc(75px + ((100vw - 75px)/2));
+        visibility: visible;
     }
 
     .ethan-name{
         top: 800px;
         position: absolute;
+        visibility: visible;
+    }
+
+    .ethan-main{
         left: calc(75px + ((100vw - 75px)/2));
     }
 
