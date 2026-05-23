@@ -381,7 +381,7 @@
         align-items: center;
         justify-content: center;
         padding-left: 2.5%;
-        top: 575px;
+        top: 675px;
         position: absolute;
     }
 
@@ -413,18 +413,15 @@
 
     .ethan-skin{
         top: 1000px;
-        position: absolute;
-        visibility: visible;
     }
 
     .ethan-name{
         top: 800px;
-        position: absolute;
-        visibility: visible;
     }
 
     .ethan-main{
         left: calc(75px + ((100vw - 75px)/2));
+        position: absolute;
     }
 
     .bud{
