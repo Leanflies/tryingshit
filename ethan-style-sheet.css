@@ -410,22 +410,23 @@
         width: 250px;
         position: absolute;
     }
-
+    
     .ethan-main{
-    position: absolute;
-    left: calc(75px + ((100vw - 75px) / 2));
-    transform: translateX(-50%);
+        position: absolute;
+        top: 750px;
+        left: calc(75px + ((100vw - 75px) / 2));
+        transform: translateX(-50%);
+        flex-direction: column;
     }   
 
     .ethan-name{
-        position: absolute;
-        top: 800px
+        position: static;
+        
     }
 
     .ethan-skin{
-        position: absolute;
+        position: static;
         height: 300px;
-        top: 900px;
     }
 
     .bud{
