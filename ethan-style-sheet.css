@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 400;
+    top: 400px;
     height: 600px;
 }
 
@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 475;
+    left: 475px;
 }
 
 .ethan-facts{
@@ -198,7 +198,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 90;
+    top: 90px;
     right: 75px;
     height: 250px;
 }
@@ -207,7 +207,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 350;
+    top: 350px;
     right: 75px;
     height: 450px;
 }
@@ -235,7 +235,7 @@
     display: flex;
     justify-content: center;
     bottom: 300px;
-    right: 100;
+    right: 100px;
     background-color: rgb(1, 45, 43);
     color: #017672;
     text-shadow: 2px 2px black;
@@ -261,7 +261,7 @@
     justify-content: center;
     position: fixed;
     bottom: 25px;
-    right: 100;
+    right: 100px;
     height: 250px;
 }
 
@@ -413,10 +413,12 @@
 
     .ethan-skin{
         top: 1000px;
+        position: absolute;
     }
 
     .ethan-name{
         top: 800px;
+        position: absolute;
     }
 
     .ethan-main{
