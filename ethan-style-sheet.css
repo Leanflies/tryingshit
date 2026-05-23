@@ -424,6 +424,7 @@
     .ethan-main{
         left: calc(75px + ((100vw - 75px)/2));
         position: absolute;
+        z-index: 5;
     }
 
     .bud{
