@@ -357,14 +357,14 @@
         overflow-y: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none;
-        height: 10000px;
+        height: 1600px;
     }
 
     .character-list-ethan{
         position: fixed;
         top: 0;
         width: 75px;
-        height: 550px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         background-color: #1B512D;
@@ -377,12 +377,13 @@
     .ethan-facts{
         width: 275px;
         left: calc(75px + ((100vw - 75px)/2));
-        height: 800px;
+        height: 600px;
         align-items: center;
         justify-content: center;
         padding-left: 2.5%;
-        top: 675px;
+        top: 900px;
         position: absolute;
+        overflow-y: hidden;
     }
 
     .ethan-facts ul{
@@ -407,14 +408,16 @@
         top: 155px;
         left: calc(75px + ((100vw - 75px)/2));
         transform: translate(-50%);
-        width: 250px;
+        width: 300px;
         position: absolute;
     }
+    
     .ethan-main{
-    position: absolute;
-    top: 850px;
-    left: calc(75px + ((100vw - 75px) / 2));
-    transform: translateX(-50%);
+        position: absolute;
+        top: 250px;
+        left: calc(75px + ((100vw - 75px) / 2));
+        transform: translateX(-50%);
+        flex-direction: column;
     }   
 
     .ethan-name{
@@ -443,10 +446,21 @@
     }
 
     #ethan-button{
-        visibility: hidden;
+        left: calc(75px + ((100vw - 75px) / 2));
+        transform: translateX(-50%);
+        position: absolute;
+        top: 1250px;
+        height: 50px;
+        width: 175px;
+        font-size: 15px;
     }
 
     .chest{
-        visibility: hidden;
+        left: calc(75px + ((100vw - 75px) / 2));
+        transform: translateX(-50%);
+        position: absolute;
+        top: 1350px;
+        width: 200px;
+        height: 200px;
     }
 }
