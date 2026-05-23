@@ -388,7 +388,7 @@
     .ethan-facts ul{
         padding: 0;
         margin: 0 auto;
-        list-style-position: inside;
+        list-style-position: outside;
     }
 
     .ethan-facts li{
@@ -414,11 +414,13 @@
     .ethan-skin{
         top: 1000px;
         position: absolute;
+        left: calc(75px + ((100vw - 75px)/2));
     }
 
     .ethan-name{
         top: 800px;
         position: absolute;
+        left: calc(75px + ((100vw - 75px)/2));
     }
 
     .bud{
