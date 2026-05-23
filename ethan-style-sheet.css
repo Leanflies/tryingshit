@@ -377,7 +377,7 @@
     .ethan-facts{
         width: 275px;
         left: calc(75px + ((100vw - 75px)/2));
-        height: 700px;
+        height: 1000px;
         align-items: center;
         justify-content: center;
         padding-left: 2.5%;
