@@ -73,6 +73,12 @@
 
     <img id="chest" class="chest" src="Minecraft chest.jpg"/>
 <button id="ethan-button" onclick="changeButton()">Open Chest</button>
+<audio preload="auto" class="open-chest-audio" >
+    <source src="open chest audio.mp3">
+</audio>
+<audio preload="auto" class="close-chest-audio" >
+    <source src="close chest audio.mp3">
+</audio>
 <script>
 function changeButton() {
     const btn = document.getElementById("ethan-button");
@@ -81,9 +87,11 @@ function changeButton() {
     if (btn.textContent === "Open Chest") {
         btn.textContent = "Close Chest";
         image.src = "C!Ethan items.png";
+        document.querySelector('.open-chest-audio').play();
     } else {
         btn.textContent = "Open Chest";
         image.src = "Minecraft chest.jpg";
+        document.querySelector('.close-chest-audio').play();
     }
 } 
 </script>
